@@ -1,0 +1,34 @@
+{
+  "name": "amazon_postgres",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/server.js",
+    "dev": "nodemon -e js -r dotenv/config ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rashuhiremath/amazon_postgres.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rashuhiremath/amazon_postgres/issues"
+  },
+  "homepage": "https://github.com/rashuhiremath/amazon_postgres#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-validators": "^1.0.4",
+    "fs-extra": "^10.0.0",
+    "pg": "^8.7.1",
+    "uniqid": "^5.4.0"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.14"
+  }
+}
